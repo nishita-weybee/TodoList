@@ -1,4 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
 body {
   box-sizing: border-box;
   background-color: ivory;
@@ -7,20 +8,19 @@ body {
   padding: 0;
 }
 
-.strike {
+
+
+.strike{
   text-decoration: line-through;
 }
-
 .container {
   width: 70%;
   margin: 2em auto 0 auto;
   text-align: center;
 }
-
 .container .heading h1 {
   margin: 0 0 1em 0;
 }
-
 .container .heading .input-task {
   width: 99%;
   margin: 0;
@@ -28,36 +28,31 @@ body {
   padding-right: 0;
   height: 30px;
 }
-
 .container .heading .noData {
   text-align: left;
   margin-left: 2.5px;
   margin-top: 10px;
+  
 }
-
 .container .all-task {
   padding: 1em;
   margin-bottom: 2em;
 }
-
 .container .all-task .todo {
   display: flex;
   justify-content: space-between;
   padding: 0.5em;
 }
-
 .container .all-task .todo .left-elements .task-added {
+  // text-decoration: none;
   border: none;
 }
-
 .container .all-task .todo .right-elements {
   text-decoration: none;
 }
-
 .container .all-task .todo .right-elements i {
   color: rgba(0, 0, 0, 0.753);
 }
-
 .container .all-task .todo .right-elements .editBtn {
   margin-right: 0.5em;
   text-decoration: none;
@@ -65,48 +60,39 @@ body {
   cursor: pointer;
   font-size: 1em;
 }
-
 .container .all-task .todo .right-elements .deleteBtn {
   text-decoration: none;
   border: none;
   cursor: pointer;
   font-size: 1em;
 }
-
 .container .function {
   display: flex;
   justify-content: space-between;
 }
-
 .container .function .btn-left {
   display: flex;
 }
-
 .container .function .btn-left .btnSearch,
 .container .function .btn-left .btnAdd {
   border: none;
   cursor: pointer;
 }
-
 .container .function .btn-left .btnSearch i,
 .container .function .btn-left .btnAdd i {
   font-size: 1.5em;
 }
-
 .container .function .btn-left .focus {
   background-color: white;
 }
-
 .container .function .btn-left .focus i {
   border: 1px solid;
   padding: 5px 7px;
   text-align: center;
 }
-
 .container .function .btnGroup {
   display: flex;
 }
-
 .container .function .btnGroup button {
   border: none;
   text-align: center;
@@ -115,18 +101,15 @@ body {
   float: left;
   text-align: center;
 }
-
 .container .function .btnGroup .active {
   background-color: white;
   border: 2px solid var(--color);
   color: rgba(0, 0, 0, 0.753);
   font-weight: bold;
 }
-
 .container .function .choices {
   display: flex;
 }
-
 .container .function .choices select {
   padding: 4%;
   -webkit-appearance: none;
@@ -134,7 +117,6 @@ body {
   border: none;
   font-size: 16px;
 }
-
 .container .function .choices select option {
   font-size: 12px;
 }
@@ -177,4 +159,5 @@ body {
   .container .heading h1 {
     font-size: 2em;
   }
-}/*# sourceMappingURL=App.css.map */
+}
+
